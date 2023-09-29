@@ -1,0 +1,110 @@
+
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('./assets/imagemdefundo.webp');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    height: auto;
+
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid aqua;
+  }
+  .name-text {
+    font-size: 21px;
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  
+  .profile-text {
+    font-size: 17px;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+  }
+  
+  .profile-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: aquamarine;
+    color: #000;
+    margin-top: 35px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+.profile-button:hover {
+    width: 180px;
+    font-size: 20px;
+}
+
+  .profile-button:active {
+    box-shadow: inset -4px 4px 0 azure;
+    font-size: 0.9rem;
+}
+
+
+  .divider {
+    width: 100%;
+    border-top: .5px solid #bfbfbf;
+    margin: 20px 0;
+  }
+  
+  .icons-container {
+    flex-wrap: wrap;
+  }
+  
+  .icon-item {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    border-radius: 40px;
+    border-color: #D870DB;
+  }
+
+
+
+.whats {
+    width: 14px;
+}
+
+.whats-text {
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.whats-text:hover {
+    font-size: 17px;
+}
+
+
+
+
+ 
